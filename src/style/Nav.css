@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Sevillana&display=swap");
+.nav-b {
+  background-color: #222222;
+  color: #a7a7a7;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+}
+
+.nav-a::before {
+  margin-left: auto;
+}
+
+.nav-a::after,
+.nav-a::before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #145da0;
+  display: block;
+  transition: 0.65s;
+}
+
+.nav-a:hover::after,
+.nav-a:hover::before {
+  width: 100%;
+}
+.logo {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@media only screen and (max-width: 700px) {
+  .logo {
+    display: none;
+  }
+  .nav-b {
+    gap: 0;
+  }
+}

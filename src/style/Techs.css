@@ -1,0 +1,14 @@
+.tech-icon {
+  width: 150px;
+  height: 150px;
+}
+.icon-div {
+  gap: 5.75rem;
+  margin: 150px 0px;
+}
+@media only screen and (max-width: 700px) {
+  .tech-icon {
+    width: 100px;
+    height: 100px;
+  }
+}

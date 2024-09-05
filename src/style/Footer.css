@@ -1,0 +1,38 @@
+.contact-bg {
+  gap: 20px;
+}
+.bg-footer {
+  margin-top: 200px;
+  background-color: #222222;
+  padding: 20px;
+}
+.footer-icon {
+  color: #a7a7a7;
+}
+.footer-icon:hover {
+  color: #145da0;
+}
+.logo-footer {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@media only screen and (max-width: 700px) {
+  .footer-icons {
+    display: none;
+  }
+  .logo-footer {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 525px) {
+  .footer-icons {
+    display: none;
+  }
+  .logo-footer {
+    display: none;
+  }
+  .container {
+    width: 85%;
+  }
+}
