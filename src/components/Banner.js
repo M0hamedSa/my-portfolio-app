@@ -50,7 +50,7 @@ function Banner() {
         </div>
         <div className="cv-btn flex gap-3 flex-wrap">
           <a
-            href="https://drive.google.com/file/d/1evV-5RWgN2EB-SRGfcHEir-eD0JQVWCj/view?usp=drive_link"
+            href="https://drive.google.com/file/d/16jbzbFuJNmCzhBoJM9EMsUyZiIcWmRQ5/view?usp=drive_link"
             target="_blank"
           >
             <button data-aos="fade-down">My CV</button>
